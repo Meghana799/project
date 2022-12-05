@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selectors classes</title>
+<style>
+.child{
+    border:2px solid red;
+    margin:5px;
+    transions:all 5s
+}
+.a1:hover{
+    transform: rotate(360deg);
+}
+.b1:hover{
+    transform: translateY(200px);
+}
+.c1.hover{
+    transform: rotate(180deg);
+}
+.parent{
+    display:flex;
+}
+</style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child a1">
+            <h1>java </h1>
+        </div>
+    </div>
+</body>
+</html>
