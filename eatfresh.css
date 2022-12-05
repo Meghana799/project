@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    font-family: system-ui;
+}
+
+.parallax {
+    background-image: url('cherries.jpg');
+    height: 20px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-title {
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-variant: small-caps;
+    font-size: 69px;
+    font-family: fantasy;
+    letter-spacing: 20px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu {
+    background: orangered;
+    text-align: center;
+}
+
+.menu-ul {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.menu-ul li {
+    font-size: 16px;
+    list-style: none;
+    display: inline-block;
+    padding: 25px 25px 25px 25px;
+}
+
+.a-menu {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-ul li:hover {
+    background: light orange;
+    transform: scale(1.1);
+}
+
+.search-box {
+    border: 1px solid white;
+    border-radius: 50px;
+    background: white;
+    width: max-content;
+    display: inline-block;
+    margin: 8px;
+}
+
+.search-box:hover {
+    box-shadow: 0 0 10px 2px #5b8c5a;
+    border: 1px solid #5b8c5a;
+}
+
+.search-input {
+    width: 150px;
+    border: none;
+    font-size: 10px;
+    outline: none;
+    background: transparent;
+    margin: 10px 0 0 10px;
+}
+
+i {
+    font-size: 20px;
+    margin: 0 10px 0 0;
+}
+
+button {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.container {
+    margin: 50px 50 px 50px 5%;
+    width: 80%;
+    text-align: center;
+}
+
+.categories
+{
+width: 200px;
+margin: 25px;
+border: 1px solid #184d47;
+border-radius: 0 0 50px 50px;
+display: inline-block;
+}
+.col-3{
+    width:80px;
+margin: 10px;
+border: 1px solid #184d47;
+border-radius: 0 0 50px 50px;
+display: inline-block;
+}
+.categories:hover{
+    box-shadow: 0 0 10px 4px #184d47;
+
+}
+.col-3:hover{
+    box-shadow: 0 0 10px 4px #184d47;
+}
+.item-image
+ {
+    height: 200px;
+    width: 200px;
+    border-radius: 0 0 50px 50px;
+    padding: 12px;
+}
+.col-3{
+    height: 200px;
+    width: 200px;
+    border-radius: 0 0 50px 50px;
+    padding: 10px;
+}
+.image-title
+ {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+.col-3{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+}
+
+.title {
+    padding: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: white;
+    background: #184d47;
+}
+
+
+.deal {
+    padding: 40px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 15px;
+    max-width: 29%;
+    background: linear-gradient(120deg, #704c7a 20%, #0e1107 50%, #16817a 80%);
+}
+
+coupon-btn {
+    border: 1px solid rgb(19, 15, 15);
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.coupon-btn:hover {
+    box-shadow: 0 0 10 5px white inset;
+}
